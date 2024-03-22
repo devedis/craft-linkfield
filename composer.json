@@ -31,6 +31,12 @@
     "test": "./vendor/bin/phpunit ./tests",
     "testWithCoverage": "./vendor/bin/phpunit --coverage-html ./tests/coverage --whitelist ./src  ./tests"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/devedis/craft-utils"
+    }
+  ],
   "config": {
     "allow-plugins": {
       "yiisoft/yii2-composer": true,
