@@ -5,11 +5,11 @@
   "license": "MIT",
   "require": {
     "php": "^8.0",
-    "craftcms/cms": "^4.0.0",
+    "craftcms/cms": "^4.0.0|^5.0.0",
     "sebastianlenz/craft-utils": "^3.0.7"
   },
   "require-dev": {
-    "craftcms/feed-me": "^5.0",
+    "craftcms/feed-me": "^6.0.0",
     "craftcms/phpstan": "dev-main",
     "phpstan/phpstan": "^1.8.5",
     "phpunit/phpunit": "^7.5 || ^8.0",
